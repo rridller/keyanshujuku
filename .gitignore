@@ -6,10 +6,8 @@ raw_data/
 patient_data/
 
 # Generated knowledge base artifacts
-08_AI_Knowledge_Base/embeddings/*
-08_AI_Knowledge_Base/RAG_database/*
-!08_AI_Knowledge_Base/embeddings/.gitkeep
-!08_AI_Knowledge_Base/RAG_database/.gitkeep
+embeddings/
+RAG_database/
 
 # Local tools
 .obsidian/workspace*.json
