@@ -1,0 +1,35 @@
+schema_version: "1.0"
+papers:
+  - id: PHAGE-HYDROGEL-EXAMPLE-001
+    status: example
+    citation:
+      title: "Replace with the verified article title"
+      authors: []
+      journal: ""
+      year: null
+      doi: ""
+      pmid: ""
+      zotero_key: ""
+    topics: [phage_therapy, wound_infection, hydrogel_delivery]
+    scientific_question:
+      problem: "MDR Pseudomonas infection limits burn-wound recovery."
+      knowledge_gap: "Local phage activity and residence time are insufficiently controlled."
+      hypothesis: "A biocompatible hydrogel can preserve phage activity and prolong local exposure."
+      clinical_translation: "Localized personalized phage delivery for infected burn wounds."
+    experimental_modules: [phage_loading, release_kinetics, biofilm_inhibition, wound_infection_model]
+    figures:
+      - id: Figure1
+        purpose: "Explain the model and treatment workflow."
+      - id: Figure2
+        purpose: "Resolve the biological and material mechanism."
+      - id: Figure3
+        purpose: "Validate efficacy, safety and translation potential."
+    manuscript_links:
+      introduction: []
+      results: []
+      discussion: []
+    note: "notes/PHAGE-HYDROGEL-EXAMPLE-001.md"
+    provenance:
+      added_by: ""
+      added_on: ""
+      last_verified: ""
