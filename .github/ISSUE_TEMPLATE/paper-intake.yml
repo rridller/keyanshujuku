@@ -1,0 +1,33 @@
+name: Paper intake
+description: Add and decompose a paper into reusable research modules
+title: "[Paper] "
+labels: ["stage:inbox"]
+body:
+  - type: input
+    id: identifier
+    attributes:
+      label: DOI or PMID
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Primary topic
+      options:
+        - Skin organoid
+        - Scar/keloid
+        - Burn infection
+        - MDR Pseudomonas
+        - Phage therapy
+        - Hydrogel delivery
+        - Regenerative medicine
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: One-sentence contribution
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision or experiment this paper can enable
